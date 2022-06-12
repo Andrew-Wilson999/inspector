@@ -2,7 +2,7 @@
 
 use if $^O eq "MSWin32", Win32::Console::ANSI;
 use Getopt::Long;
-use HTTP::Request;
+use HTTP::Requests;
 use LWP::UserAgent;
 use IO::Select;
 use HTTP::Headers;
